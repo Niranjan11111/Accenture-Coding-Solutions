@@ -7,9 +7,11 @@ def lowcount(str):
 str = "abcedfGHIJ"
 lowcount(str)
 
-# def lowcount(str):
-#   c=0
-#   for i in str:
-#     if ord(i) >97 or ord(i) < 122:
-#       c+=1
-#   return c
+# def lowcount(s):
+#     c = 0
+#     for i in s:
+#         if ord('a') <= ord(i) <= ord('z'):
+#             c += 1
+#     return c
+
+# print(lowcount("abcdefGHIJ"))
