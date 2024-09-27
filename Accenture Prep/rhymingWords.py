@@ -19,9 +19,8 @@ def rhymingWords(words, target):
         max_key = max(wordDict, key=wordDict.get)
         max_value = wordDict[max_key]
 
-    return (max_key, max_value)
+    return f"{max_key} {max_value}"
 
-
-words = ["thunder", "blender", "under", "puzzle"]
+words = ["thunder", "blender", "under", "puzzle", "hunder"]
 target = "thunder"
 print(rhymingWords(words, target))
