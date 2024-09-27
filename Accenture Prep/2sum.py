@@ -12,3 +12,4 @@ def twoSum(arr, target):
 arr = [13, 2, 10, 8, 5, 4]
 target = 15
 print(twoSum(arr, target))
+
